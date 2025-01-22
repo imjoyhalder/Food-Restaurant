@@ -196,3 +196,96 @@
     justify-content: center;
     gap: 3px;
 }
+
+/* #food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 91px;
+}
+
+#food .food-container{
+    display: flex;
+    direction: row;
+
+}
+#food .food-container .image{
+   
+    width: 50%;
+    justify-content: left;
+}
+
+#food .food-container .container{
+    width: 50%;
+    justify-content: right;
+}
+
+#food .food-container .container .social-link .list{
+    display: flex;
+    direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 3px;
+} */
+.food-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.content-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+}
