@@ -202,11 +202,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px; 
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border: 5px solid rgb(148, 235, 235);
-    box-shadow: 20px 20px 20px rgb(229, 193, 61);
+    box-shadow: 20px 20px 20px rgb(65, 63, 57);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
